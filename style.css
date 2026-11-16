@@ -6,7 +6,6 @@ img {
 
 
 
-
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
@@ -15,21 +14,46 @@ img {
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #000000;
 }
-
-
-
+a{color:yellow;}
+.ba{
+  display:flex;
+  flex-direction:column;
+}
+.yoyoyo{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+a:hover{
+  color:rgb(194, 177, 25);
+}
 h1 {
   font-family: "SF Distant Galaxy";
+  color:yellow;
+  display:flex;
+        justify-content:center;
 }
 
 
 
 /* computer */
 @media screen and (min-width: 600px) {
+  .ba{
+    display:flex;
+    justify-content:center;
+  flex-direction:row; }
+     .yoyoyo{
+      display:flex;
+      justify-content:space-around;
+      flex-direction:row;}
+      h1{
+        display:flex;
+        justify-content:center;
+      }
 
+  }
 
-
-}
 
